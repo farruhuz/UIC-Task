@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 
 
 // Mock icons for testing (avoid actual rendering)
