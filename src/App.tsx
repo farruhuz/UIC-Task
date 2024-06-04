@@ -2,7 +2,6 @@ import { FaSquare, FaCheckSquare, FaMinusSquare } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
 import TreeView, { flattenTree } from "react-accessible-treeview";
 import cx from "classnames";
-import "./index.css";
 
 const folder = {
   name: "",
